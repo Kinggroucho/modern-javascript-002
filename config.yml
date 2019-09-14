@@ -1,0 +1,19 @@
+title: Modern-JavaScript-002
+tagline: A brand new course on Learning Lab
+description: >-
+  Companion Github Learning course for the Waracle Digital Academy "Modern
+  Javascript" workshops.
+template:
+  repo: modern-javascript-002-template
+  name: modern-javascript-002
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
